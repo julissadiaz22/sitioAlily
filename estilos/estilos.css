@@ -67,11 +67,15 @@ h1{
     font-size: 25px;
 }
 
-/* disenio del formulario */
+/* diseño del formulario */
+.container{
+    max-width: 1000px;
+    
+}
 
 .contact-container {
     max-width: 800px;
-    margin: 20px auto;
+    margin: 30px auto;
     padding: 20px;
     background-color: #fff;
     border: 2px solid #d1c1ac;
@@ -122,25 +126,48 @@ td {
 }
 
 .selector {
-    text-align: center;
-    font-family: Arial, sans-serif;
+    display: block;  
+    background-color: #a0522d; 
+    padding: 15px;
+    border-radius: 10px;
+    color: white; 
 }
+
+.selected {
+    background-color: #A0522D;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+}
+
+ 
+
 
 .item {
-    margin: 10px 0;
-    padding: 25px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    margin: 15px 0;
 }
 
-
-.btn-selector {
-    width: 150px;
-    height: 30px;
-    background-color: #A0522D;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-    position: relative;
+.item span {
+    margin-right: 10px;  
+    font-weight: bold;
 }
+
+input[type="date"], input[type="time"] {
+    width: 150px; 
+    padding: 5px;
+    border: 2px solid #fff; 
+    border-radius: 5px;
+    background-color: #fff; 
+    color: #333; 
+}
+
+input[type="date"]::placeholder, input[type="time"]::placeholder {
+    color: #aaa; 
+}
+
 
 .btn-selector::after {
     content: "";
