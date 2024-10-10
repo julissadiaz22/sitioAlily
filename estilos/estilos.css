@@ -35,6 +35,9 @@ a{
 .indexButton:hover {
     background-color: #8a5b2b; 
 }
+.politicas{
+    font-size: 10px;
+}
 
 @media (max-width: 576px) {
     .indexButton {
@@ -74,8 +77,12 @@ h1{
 
 /* diseño del formulario */
 .container{
-    max-width: 1000px;
+    max-width: 1200px;
     
+}
+
+#Ubicacion{
+    margin-top: 100px;
 }
 
 .slogan {
