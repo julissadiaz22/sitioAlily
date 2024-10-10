@@ -73,6 +73,21 @@ h1{
     
 }
 
+.slogan {
+    position: absolute;  
+    bottom: 140px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    color: white; 
+    font-size: 18px; 
+    text-align: center; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px; 
+    border-radius: 5px; 
+}
+
+
+
 .contact-container {
     max-width: 800px;
     margin: 30px auto;
