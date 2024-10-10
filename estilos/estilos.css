@@ -1,0 +1,171 @@
+.navbar-nav .nav-link.active {
+    border-bottom: 4px solid #a3753e;
+}
+
+.imaindex {
+    width: 100%; 
+    max-width: 80%; 
+    max-height: 375px; 
+    margin: 0 auto; 
+}
+
+.indexButton {
+    background-color: #a3753e;
+    color: white;
+    width: 100%; 
+    max-width: 150px; 
+    border-radius: 20px;
+    padding: 10px 0;
+    border: none;
+    cursor: pointer;
+    margin-top: auto;  
+    font-size: 1rem;
+    transition: background-color 0.3s; 
+}
+
+.indexButton:hover {
+    background-color: #8a5b2b; 
+}
+
+@media (max-width: 576px) {
+    .indexButton {
+        font-size: 0.9rem; 
+        padding: 8px 0;
+        margin: 5px; 
+    }
+}
+
+.fixed-image {
+    width: 100%;
+    height: 350px; 
+    object-fit: cover; 
+}
+
+.card {
+    border: none; 
+    box-shadow: none; 
+}
+
+.card-body p {
+    margin: 0;
+    text-align: left;
+}
+
+h1{
+    font-style: italic;
+    color: #a3753e;
+    text-align: center;
+    font-size: 25px;
+}
+
+/* disenio del formulario */
+
+.contact-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #d1c1ac;
+    border-radius: 8px;
+}
+
+.contact-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.underline-input {
+    border: none;
+    border-bottom: 2px solid #A0522D;
+    border-radius: 0;
+    padding: 5px 0;
+    box-shadow: none;
+    width: 100%;
+}
+
+.underline-input:focus {
+    border-bottom-color: #A3753E;
+    outline: none;
+}
+
+textarea.underline-input {
+    border-bottom: 2px solid #A0522D;
+    resize: none;
+}
+
+/* para botones y calendario */
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+th,
+td {
+    padding: 10px;
+    border: none;
+    color: #A0522D;
+
+}
+
+.selector {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.item {
+    margin: 10px 0;
+    padding: 25px;
+}
+
+
+.btn-selector {
+    width: 150px;
+    height: 30px;
+    background-color: #A0522D;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+.btn-selector::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    border-width: 5px 5px 0 5px;
+    border-style: solid;
+    border-color: #fff transparent transparent transparent;
+}
+
+
+.ejemploColores{
+    background-color: #D8B876;
+    background-color: #FAD880;
+    background-color: #C67D30;
+    background-color: #ECDEC9;
+    background-color: #EFEAE9 ;
+    
+}
+
+.image-text-overlay {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.fixed-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
